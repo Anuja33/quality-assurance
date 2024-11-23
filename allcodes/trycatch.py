@@ -29,7 +29,7 @@ try:
 
 except ElementNotInteractableException as e:
     # Print the exception if something goes wrong
-    print("This is from not interactable exception")
+    print("This is from not inter exception")
 
     # Try again with implicit wait
     driver.implicitly_wait(5)
